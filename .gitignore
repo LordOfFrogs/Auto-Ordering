@@ -1,5 +1,5 @@
-Gear0805.xlsx
+*.xlsx
 secrets.json
-venv
+.venv
 .vscode
 session_info.txt

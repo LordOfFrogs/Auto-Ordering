@@ -31,7 +31,7 @@ PRODUCT_PAGES = secrets['PRODUCT_PAGES']
 RES_PAGE = secrets['RES_PAGE']
 
 # data processing
-db = pd.read_excel('Gear0805.xlsx')
+db = pd.read_excel('Gear0812.xlsx')
 db.rename(columns=str.strip, inplace=True) # strip trailing whitespaces
 db = db[['Reservation #', 'Guest Name', 'Address', 
          'Country', 'Sex', 'T-Shirt', 'Shorts', 
